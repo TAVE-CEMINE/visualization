@@ -1,0 +1,2417 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0515.0324                               -->
+<workbook original-version='18.1' source-build='2024.1.3 (20241.24.0515.0324)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='reviews_matin_kim_product_info' inline='true' name='federated.0ud46oa0cobyhf1fdxspv1lk9ruh' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='reviews_matin_kim_product_info' name='textscan.0acj53s0q6nmuk19vnu7p0qvz27m'>
+            <connection class='textscan' directory='C:/Users/jieunkim/Downloads' filename='reviews_matin_kim_product_info.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0acj53s0q6nmuk19vnu7p0qvz27m' name='reviews_matin_kim_product_info.csv' table='[reviews_matin_kim_product_info#csv]' type='table'>
+          <columns character-set='EUC-KR' header='yes' locale='ko_KR' separator=','>
+            <column datatype='string' name='total_purchase' ordinal='0' />
+            <column datatype='real' name='남성' ordinal='1' />
+            <column datatype='real' name='여성' ordinal='2' />
+            <column datatype='real' name='~18세' ordinal='3' />
+            <column datatype='real' name='19~23세' ordinal='4' />
+            <column datatype='real' name='24~28세' ordinal='5' />
+            <column datatype='real' name='29~33세' ordinal='6' />
+            <column datatype='real' name='34~39세' ordinal='7' />
+            <column datatype='real' name='40세~' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0acj53s0q6nmuk19vnu7p0qvz27m' name='reviews_matin_kim_product_info.csv' table='[reviews_matin_kim_product_info#csv]' type='table'>
+          <columns character-set='EUC-KR' header='yes' locale='ko_KR' separator=','>
+            <column datatype='string' name='total_purchase' ordinal='0' />
+            <column datatype='real' name='남성' ordinal='1' />
+            <column datatype='real' name='여성' ordinal='2' />
+            <column datatype='real' name='~18세' ordinal='3' />
+            <column datatype='real' name='19~23세' ordinal='4' />
+            <column datatype='real' name='24~28세' ordinal='5' />
+            <column datatype='real' name='29~33세' ordinal='6' />
+            <column datatype='real' name='34~39세' ordinal='7' />
+            <column datatype='real' name='40세~' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[reviews_matin_kim_product_info.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;EUC-KR&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ko&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₩&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ko_KR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_purchase</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[total_purchase]</local-name>
+            <parent-name>[reviews_matin_kim_product_info.csv]</parent-name>
+            <remote-alias>total_purchase</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info.csv_286458B8E7C64461921341CA7C96F1C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>남성</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[남성]</local-name>
+            <parent-name>[reviews_matin_kim_product_info.csv]</parent-name>
+            <remote-alias>남성</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info.csv_286458B8E7C64461921341CA7C96F1C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>여성</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[여성]</local-name>
+            <parent-name>[reviews_matin_kim_product_info.csv]</parent-name>
+            <remote-alias>여성</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info.csv_286458B8E7C64461921341CA7C96F1C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>~18세</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[~18세]</local-name>
+            <parent-name>[reviews_matin_kim_product_info.csv]</parent-name>
+            <remote-alias>~18세</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info.csv_286458B8E7C64461921341CA7C96F1C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>19~23세</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[19~23세]</local-name>
+            <parent-name>[reviews_matin_kim_product_info.csv]</parent-name>
+            <remote-alias>19~23세</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info.csv_286458B8E7C64461921341CA7C96F1C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>24~28세</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[24~28세]</local-name>
+            <parent-name>[reviews_matin_kim_product_info.csv]</parent-name>
+            <remote-alias>24~28세</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info.csv_286458B8E7C64461921341CA7C96F1C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>29~33세</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[29~33세]</local-name>
+            <parent-name>[reviews_matin_kim_product_info.csv]</parent-name>
+            <remote-alias>29~33세</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info.csv_286458B8E7C64461921341CA7C96F1C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>34~39세</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[34~39세]</local-name>
+            <parent-name>[reviews_matin_kim_product_info.csv]</parent-name>
+            <remote-alias>34~39세</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info.csv_286458B8E7C64461921341CA7C96F1C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>40세~</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[40세~]</local-name>
+            <parent-name>[reviews_matin_kim_product_info.csv]</parent-name>
+            <remote-alias>40세~</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info.csv_286458B8E7C64461921341CA7C96F1C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='계산1' datatype='real' name='[Calculation_1251437778233159682]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[19~23세]*100' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='reviews_matin_kim_product_info.csv' datatype='table' name='[__tableau_internal_object_id__].[reviews_matin_kim_product_info.csv_286458B8E7C64461921341CA7C96F1C7]' role='measure' type='quantitative' />
+      <column caption='Total Purchase' datatype='string' name='[total_purchase]' role='dimension' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='ko_KR' class='hyper' dbname='C:/Users/jieunkim/AppData/Local/Temp/TableauTemp/#TableauTemp_1ss9n3f07qyaoz16ta4w1115obey.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='06/22/2024 05:53:49 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>total_purchase</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[total_purchase]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_purchase</remote-alias>
+              <ordinal>0</ordinal>
+              <family>reviews_matin_kim_product_info.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info.csv_286458B8E7C64461921341CA7C96F1C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>남성</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[남성]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>남성</remote-alias>
+              <ordinal>1</ordinal>
+              <family>reviews_matin_kim_product_info.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info.csv_286458B8E7C64461921341CA7C96F1C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>여성</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[여성]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>여성</remote-alias>
+              <ordinal>2</ordinal>
+              <family>reviews_matin_kim_product_info.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info.csv_286458B8E7C64461921341CA7C96F1C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>~18세</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[~18세]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>~18세</remote-alias>
+              <ordinal>3</ordinal>
+              <family>reviews_matin_kim_product_info.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info.csv_286458B8E7C64461921341CA7C96F1C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>19~23세</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[19~23세]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>19~23세</remote-alias>
+              <ordinal>4</ordinal>
+              <family>reviews_matin_kim_product_info.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info.csv_286458B8E7C64461921341CA7C96F1C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>24~28세</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[24~28세]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>24~28세</remote-alias>
+              <ordinal>5</ordinal>
+              <family>reviews_matin_kim_product_info.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info.csv_286458B8E7C64461921341CA7C96F1C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>29~33세</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[29~33세]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>29~33세</remote-alias>
+              <ordinal>6</ordinal>
+              <family>reviews_matin_kim_product_info.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info.csv_286458B8E7C64461921341CA7C96F1C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>34~39세</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[34~39세]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>34~39세</remote-alias>
+              <ordinal>7</ordinal>
+              <family>reviews_matin_kim_product_info.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info.csv_286458B8E7C64461921341CA7C96F1C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>40세~</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[40세~]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>40세~</remote-alias>
+              <ordinal>8</ordinal>
+              <family>reviews_matin_kim_product_info.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info.csv_286458B8E7C64461921341CA7C96F1C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='total_purchase' />
+        <field-sort-custom-order field='남성' />
+        <field-sort-custom-order field='여성' />
+        <field-sort-custom-order field='~18세' />
+        <field-sort-custom-order field='19~23세' />
+        <field-sort-custom-order field='Calculation_1251437778233159682' />
+        <field-sort-custom-order field='24~28세' />
+        <field-sort-custom-order field='29~33세' />
+        <field-sort-custom-order field='34~39세' />
+        <field-sort-custom-order field='40세~' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='reviews_matin_kim_product_info.csv' id='reviews_matin_kim_product_info.csv_286458B8E7C64461921341CA7C96F1C7'>
+            <properties context=''>
+              <relation connection='textscan.0acj53s0q6nmuk19vnu7p0qvz27m' name='reviews_matin_kim_product_info.csv' table='[reviews_matin_kim_product_info#csv]' type='table'>
+                <columns character-set='EUC-KR' header='yes' locale='ko_KR' separator=','>
+                  <column datatype='string' name='total_purchase' ordinal='0' />
+                  <column datatype='real' name='남성' ordinal='1' />
+                  <column datatype='real' name='여성' ordinal='2' />
+                  <column datatype='real' name='~18세' ordinal='3' />
+                  <column datatype='real' name='19~23세' ordinal='4' />
+                  <column datatype='real' name='24~28세' ordinal='5' />
+                  <column datatype='real' name='29~33세' ordinal='6' />
+                  <column datatype='real' name='34~39세' ordinal='7' />
+                  <column datatype='real' name='40세~' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='reviews_matin_kim_product_info2' inline='true' name='federated.1dm2wal0kod4nb10j53r31ibn2ab' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='reviews_matin_kim_product_info2' name='textscan.12czmcq0gruzj718pqoji0agjxfn'>
+            <connection class='textscan' directory='C:/Users/jieunkim/Downloads' filename='reviews_matin_kim_product_info2.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.12czmcq0gruzj718pqoji0agjxfn' name='reviews_matin_kim_product_info2.csv' table='[reviews_matin_kim_product_info2#csv]' type='table'>
+          <columns character-set='EUC-KR' header='yes' locale='ko_KR' separator=','>
+            <column datatype='string' name='category' ordinal='0' />
+            <column datatype='real' name='사이즈' ordinal='1' />
+            <column datatype='real' name='밝기' ordinal='2' />
+            <column datatype='real' name='색감' ordinal='3' />
+            <column datatype='real' name='수납공간' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.12czmcq0gruzj718pqoji0agjxfn' name='reviews_matin_kim_product_info2.csv' table='[reviews_matin_kim_product_info2#csv]' type='table'>
+          <columns character-set='EUC-KR' header='yes' locale='ko_KR' separator=','>
+            <column datatype='string' name='category' ordinal='0' />
+            <column datatype='real' name='사이즈' ordinal='1' />
+            <column datatype='real' name='밝기' ordinal='2' />
+            <column datatype='real' name='색감' ordinal='3' />
+            <column datatype='real' name='수납공간' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[reviews_matin_kim_product_info2.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;ibm-970_P110_P110-2006_U2&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ko&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₩&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ko_KR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[category]</local-name>
+            <parent-name>[reviews_matin_kim_product_info2.csv]</parent-name>
+            <remote-alias>category</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LKO_RKR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info2.csv_13191EEDB1B34EB3B2DBC1AABB4F018A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>사이즈</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[사이즈]</local-name>
+            <parent-name>[reviews_matin_kim_product_info2.csv]</parent-name>
+            <remote-alias>사이즈</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info2.csv_13191EEDB1B34EB3B2DBC1AABB4F018A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>밝기</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[밝기]</local-name>
+            <parent-name>[reviews_matin_kim_product_info2.csv]</parent-name>
+            <remote-alias>밝기</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info2.csv_13191EEDB1B34EB3B2DBC1AABB4F018A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>색감</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[색감]</local-name>
+            <parent-name>[reviews_matin_kim_product_info2.csv]</parent-name>
+            <remote-alias>색감</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info2.csv_13191EEDB1B34EB3B2DBC1AABB4F018A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>수납공간</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[수납공간]</local-name>
+            <parent-name>[reviews_matin_kim_product_info2.csv]</parent-name>
+            <remote-alias>수납공간</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info2.csv_13191EEDB1B34EB3B2DBC1AABB4F018A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='reviews_matin_kim_product_info2.csv' datatype='table' name='[__tableau_internal_object_id__].[reviews_matin_kim_product_info2.csv_13191EEDB1B34EB3B2DBC1AABB4F018A]' role='measure' type='quantitative' />
+      <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='ko_KR' class='hyper' dbname='C:/Users/jieunkim/AppData/Local/Temp/TableauTemp/#TableauTemp_0h20sqq0wbi1fw1buknmg0l1s0i7.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='06/23/2024 12:08:47 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>category</remote-alias>
+              <ordinal>0</ordinal>
+              <family>reviews_matin_kim_product_info2.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LKO_RKR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info2.csv_13191EEDB1B34EB3B2DBC1AABB4F018A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>사이즈</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[사이즈]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>사이즈</remote-alias>
+              <ordinal>1</ordinal>
+              <family>reviews_matin_kim_product_info2.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info2.csv_13191EEDB1B34EB3B2DBC1AABB4F018A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>밝기</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[밝기]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>밝기</remote-alias>
+              <ordinal>2</ordinal>
+              <family>reviews_matin_kim_product_info2.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info2.csv_13191EEDB1B34EB3B2DBC1AABB4F018A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>색감</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[색감]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>색감</remote-alias>
+              <ordinal>3</ordinal>
+              <family>reviews_matin_kim_product_info2.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info2.csv_13191EEDB1B34EB3B2DBC1AABB4F018A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>수납공간</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[수납공간]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>수납공간</remote-alias>
+              <ordinal>4</ordinal>
+              <family>reviews_matin_kim_product_info2.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[reviews_matin_kim_product_info2.csv_13191EEDB1B34EB3B2DBC1AABB4F018A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='reviews_matin_kim_product_info2.csv' id='reviews_matin_kim_product_info2.csv_13191EEDB1B34EB3B2DBC1AABB4F018A'>
+            <properties context=''>
+              <relation connection='textscan.12czmcq0gruzj718pqoji0agjxfn' name='reviews_matin_kim_product_info2.csv' table='[reviews_matin_kim_product_info2#csv]' type='table'>
+                <columns character-set='EUC-KR' header='yes' locale='ko_KR' separator=','>
+                  <column datatype='string' name='category' ordinal='0' />
+                  <column datatype='real' name='사이즈' ordinal='1' />
+                  <column datatype='real' name='밝기' ordinal='2' />
+                  <column datatype='real' name='색감' ordinal='3' />
+                  <column datatype='real' name='수납공간' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='matinkim전체가격(가방)' inline='true' name='federated.0w7dqm009glopn1a9rvro17gxmoh' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='matinkim전체가격(가방)' name='textscan.1rr7x7p0qtn0td15932tj08jfva4'>
+            <connection class='textscan' directory='C:/Users/jieunkim/Downloads' filename='matinkim전체가격(가방).csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1rr7x7p0qtn0td15932tj08jfva4' name='matinkim전체가격(가방).csv' table='[matinkim전체가격(가방)#csv]' type='table'>
+          <columns character-set='EUC-KR' header='yes' locale='ko_KR' separator=','>
+            <column datatype='integer' name='전체가격' ordinal='0' />
+            <column datatype='integer' name='전체평균' ordinal='1' />
+            <column datatype='integer' name='상위10평균' ordinal='2' />
+            <column datatype='integer' name='하위10평균' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1rr7x7p0qtn0td15932tj08jfva4' name='matinkim전체가격(가방).csv' table='[matinkim전체가격(가방)#csv]' type='table'>
+          <columns character-set='EUC-KR' header='yes' locale='ko_KR' separator=','>
+            <column datatype='integer' name='전체가격' ordinal='0' />
+            <column datatype='integer' name='전체평균' ordinal='1' />
+            <column datatype='integer' name='상위10평균' ordinal='2' />
+            <column datatype='integer' name='하위10평균' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[matinkim전체가격(가방).csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;EUC-KR&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ko&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₩&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ko_KR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>전체가격</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[전체가격]</local-name>
+            <parent-name>[matinkim전체가격(가방).csv]</parent-name>
+            <remote-alias>전체가격</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[matinkim전체가격(가방).csv_FC8E19737ADB46FCBFE0FC0A8BEE73D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>전체평균</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[전체평균]</local-name>
+            <parent-name>[matinkim전체가격(가방).csv]</parent-name>
+            <remote-alias>전체평균</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[matinkim전체가격(가방).csv_FC8E19737ADB46FCBFE0FC0A8BEE73D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>상위10평균</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[상위10평균]</local-name>
+            <parent-name>[matinkim전체가격(가방).csv]</parent-name>
+            <remote-alias>상위10평균</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[matinkim전체가격(가방).csv_FC8E19737ADB46FCBFE0FC0A8BEE73D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>하위10평균</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[하위10평균]</local-name>
+            <parent-name>[matinkim전체가격(가방).csv]</parent-name>
+            <remote-alias>하위10평균</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[matinkim전체가격(가방).csv_FC8E19737ADB46FCBFE0FC0A8BEE73D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>중앙값</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[중앙값]</local-name>
+            <parent-name>[matinkim전체가격(가방).csv]</parent-name>
+            <remote-alias>중앙값</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[matinkim전체가격(가방).csv_FC8E19737ADB46FCBFE0FC0A8BEE73D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='matinkim전체가격(가방).csv' datatype='table' name='[__tableau_internal_object_id__].[matinkim전체가격(가방).csv_FC8E19737ADB46FCBFE0FC0A8BEE73D6]' role='measure' type='quantitative' />
+      <column aggregation='None' datatype='integer' name='[전체가격(구간차원)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='4' formula='[전체가격]' peg='0' size='24201' />
+      </column>
+      <column datatype='integer' name='[전체가격]' role='measure' type='quantitative' />
+      <column aggregation='None' datatype='integer' name='[전체평균(구간차원)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='0' formula='[전체평균]' peg='0' size='1' />
+      </column>
+      <column datatype='integer' name='[전체평균]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='ko_KR' class='hyper' dbname='C:/Users/jieunkim/AppData/Local/Temp/TableauTemp/#TableauTemp_0snd2ub017h5to19nabg01x7yv4z.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='06/23/2024 12:19:39 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>전체가격</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[전체가격]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>전체가격</remote-alias>
+              <ordinal>0</ordinal>
+              <family>matinkim전체가격(가방).csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[matinkim전체가격(가방).csv_FC8E19737ADB46FCBFE0FC0A8BEE73D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>전체평균</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[전체평균]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>전체평균</remote-alias>
+              <ordinal>1</ordinal>
+              <family>matinkim전체가격(가방).csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[matinkim전체가격(가방).csv_FC8E19737ADB46FCBFE0FC0A8BEE73D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>상위10평균</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[상위10평균]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>상위10평균</remote-alias>
+              <ordinal>2</ordinal>
+              <family>matinkim전체가격(가방).csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[matinkim전체가격(가방).csv_FC8E19737ADB46FCBFE0FC0A8BEE73D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>하위10평균</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[하위10평균]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>하위10평균</remote-alias>
+              <ordinal>3</ordinal>
+              <family>matinkim전체가격(가방).csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[matinkim전체가격(가방).csv_FC8E19737ADB46FCBFE0FC0A8BEE73D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>중앙값</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[중앙값]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>중앙값</remote-alias>
+              <ordinal>4</ordinal>
+              <family>matinkim전체가격(가방).csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[matinkim전체가격(가방).csv_FC8E19737ADB46FCBFE0FC0A8BEE73D6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='matinkim전체가격(가방).csv' id='matinkim전체가격(가방).csv_FC8E19737ADB46FCBFE0FC0A8BEE73D6'>
+            <properties context=''>
+              <relation connection='textscan.1rr7x7p0qtn0td15932tj08jfva4' name='matinkim전체가격(가방).csv' table='[matinkim전체가격(가방)#csv]' type='table'>
+                <columns character-set='EUC-KR' header='yes' locale='ko_KR' separator=','>
+                  <column datatype='integer' name='전체가격' ordinal='0' />
+                  <column datatype='integer' name='전체평균' ordinal='1' />
+                  <column datatype='integer' name='상위10평균' ordinal='2' />
+                  <column datatype='integer' name='하위10평균' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='상위가격 평균'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='matinkim전체가격(가방)' name='federated.0w7dqm009glopn1a9rvro17gxmoh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w7dqm009glopn1a9rvro17gxmoh'>
+            <column-instance column='[상위10평균]' derivation='Sum' name='[sum:상위10평균:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[상위10평균]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0w7dqm009glopn1a9rvro17gxmoh].[sum:상위10평균:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontsize='28'>&lt;</run>
+                <run fontsize='28'>[federated.0w7dqm009glopn1a9rvro17gxmoh].[sum:상위10평균:qk]</run>
+                <run fontsize='28'>&gt;원</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#76b7b2' />
+                <format attr='mark-markers-mode' value='auto' />
+                <format attr='size' value='0' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <show-full-range>
+          <column>[federated.0w7dqm009glopn1a9rvro17gxmoh].[none:전체가격(구간차원):qk]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{4C61D717-E115-4335-AD30-9516DF063950}' />
+    </worksheet>
+    <worksheet name='시트 9'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='reviews_matin_kim_product_info2' name='federated.1dm2wal0kod4nb10j53r31ibn2ab' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1dm2wal0kod4nb10j53r31ibn2ab'>
+            <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+            <column-instance column='[category]' derivation='None' name='[none:category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[수납공간]' derivation='Sum' name='[pcto:sum:수납공간:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Table' type='PctTotal' />
+            </column-instance>
+            <column datatype='real' name='[수납공간]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1dm2wal0kod4nb10j53r31ibn2ab].[none:category:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:category:nk]' />
+              <groupfilter function='except'>
+                <groupfilter function='level-members' level='[none:category:nk]' />
+                <groupfilter function='union'>
+                  <groupfilter function='member' level='[none:category:nk]' member='&quot;normal&quot;' />
+                  <groupfilter function='member' level='[none:category:nk]' member='&quot;small&quot;' />
+                  <groupfilter function='member' level='[none:category:nk]' member='&quot;spacious&quot;' />
+                  <groupfilter function='member' level='[none:category:nk]' member='%null%' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1dm2wal0kod4nb10j53r31ibn2ab].[none:category:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;small&quot;</bucket>
+              <bucket>&quot;normal&quot;</bucket>
+              <bucket>&quot;spacious&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[none:category:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1dm2wal0kod4nb10j53r31ibn2ab].[pcto:sum:수납공간:qk]' field-type='quantitative' major-origin='0.0' major-spacing='0.10000000000000001' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.1dm2wal0kod4nb10j53r31ibn2ab].[pcto:sum:수납공간:qk]' scope='cols' value='수납공간 응답' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1dm2wal0kod4nb10j53r31ibn2ab].[none:category:nk]' value='169' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.0434806346893311' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#76b7b2' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[none:category:nk]</rows>
+        <cols>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[pcto:sum:수납공간:qk]</cols>
+        <percentages enabled='true' mode='table' />
+      </table>
+      <simple-id uuid='{D62F5547-5806-456A-934F-E4D04E59A6CF}' />
+    </worksheet>
+    <worksheet name='연령별 구매비율'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='reviews_matin_kim_product_info' name='federated.0ud46oa0cobyhf1fdxspv1lk9ruh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ud46oa0cobyhf1fdxspv1lk9ruh'>
+            <column datatype='real' name='[19~23세]' role='measure' type='quantitative' />
+            <column datatype='real' name='[24~28세]' role='measure' type='quantitative' />
+            <column datatype='real' name='[29~33세]' role='measure' type='quantitative' />
+            <column datatype='real' name='[34~39세]' role='measure' type='quantitative' />
+            <column datatype='real' name='[40세~]' role='measure' type='quantitative' />
+            <column-instance column='[19~23세]' derivation='Sum' name='[sum:19~23세:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[24~28세]' derivation='Sum' name='[sum:24~28세:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[29~33세]' derivation='Sum' name='[sum:29~33세:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[34~39세]' derivation='Sum' name='[sum:34~39세:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[40세~]' derivation='Sum' name='[sum:40세~:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[~18세]' derivation='Sum' name='[sum:~18세:qk]' pivot='key' type='quantitative' />
+            <column datatype='real' name='[~18세]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[sum:19~23세:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[sum:24~28세:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[sum:29~33세:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[sum:34~39세:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[sum:40세~:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[sum:~18세:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[sum:~18세:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[sum:19~23세:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[sum:24~28세:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[sum:29~33세:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[sum:34~39세:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[sum:40세~:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[Multiple Values]' field-type='quantitative' major-origin='0.0' major-spacing='0.10000000000000001' scope='rows' type='space' />
+            <format attr='height' field='[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[:Measure Names]' value='83' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[sum:~18세:qk]' value='p0.00%' />
+            <format attr='text-format' field='[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[sum:19~23세:qk]' value='p0.00%' />
+            <format attr='text-format' field='[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[sum:24~28세:qk]' value='p0.00%' />
+            <format attr='text-format' field='[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[sum:29~33세:qk]' value='p0.00%' />
+            <format attr='text-format' field='[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[sum:34~39세:qk]' value='p0.00%' />
+            <format attr='text-format' field='[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[sum:40세~:qk]' value='p0.00%' />
+            <format attr='text-format' field='[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[Multiple Values]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[Multiple Values]' value='p0.00%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+                <format attr='mark-color' value='#76b7b2' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='968' />
+                <format attr='maxheight' value='968' />
+                <format attr='minwidth' value='1852' />
+                <format attr='maxwidth' value='1852' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[Multiple Values]</rows>
+        <cols>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[:Measure Names]</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[:Measure Names]</field>
+                  <field>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[sum:34~39세:qk]&quot;</value>
+                <value>0.070000000000000007</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[:Measure Names]</field>
+                  <field>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[sum:~18세:qk]&quot;</value>
+                <value>0.01</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='2' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[:Measure Names]</field>
+                  <field>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[sum:19~23세:qk]&quot;</value>
+                <value>0.20000000000000001</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='3' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[:Measure Names]</field>
+                  <field>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[sum:24~28세:qk]&quot;</value>
+                <value>0.40000000000000002</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='4' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[:Measure Names]</field>
+                  <field>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[sum:29~33세:qk]&quot;</value>
+                <value>0.23000000000000001</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='5' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[:Measure Names]</field>
+                  <field>[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;[federated.0ud46oa0cobyhf1fdxspv1lk9ruh].[sum:40세~:qk]&quot;</value>
+                <value>0.089999999999999997</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{E3C1F4E8-B7F8-4C8A-9CB8-FFA5BEE28BBF}' />
+    </worksheet>
+    <worksheet name='전체가격분포'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='matinkim전체가격(가방)' name='federated.0w7dqm009glopn1a9rvro17gxmoh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w7dqm009glopn1a9rvro17gxmoh'>
+            <column-instance column='[전체가격]' derivation='Count' name='[cnt:전체가격:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[전체가격(구간차원)]' derivation='None' name='[none:전체가격(구간차원):qk]' pivot='key' type='quantitative' />
+            <column aggregation='None' datatype='integer' name='[전체가격(구간차원)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='4' formula='[전체가격]' peg='0' size='24201' />
+            </column>
+            <column datatype='integer' name='[전체가격]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0w7dqm009glopn1a9rvro17gxmoh].[none:전체가격(구간차원):qk]' field-type='quantitative' major-origin='0' major-spacing='10000' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.0w7dqm009glopn1a9rvro17gxmoh].[none:전체가격(구간차원):qk]' scope='cols' value='가격' />
+            <format attr='title' class='0' field='[federated.0w7dqm009glopn1a9rvro17gxmoh].[cnt:전체가격:qk]' scope='rows' value='가격별 제품수' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='rows' value='0' />
+            <format attr='band-size' scope='cols' value='0' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='20' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='0.84558010101318359' />
+                <format attr='mark-color' value='#76b7b2' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0w7dqm009glopn1a9rvro17gxmoh].[cnt:전체가격:qk]</rows>
+        <cols>[federated.0w7dqm009glopn1a9rvro17gxmoh].[none:전체가격(구간차원):qk]</cols>
+        <show-full-range>
+          <column>[federated.0w7dqm009glopn1a9rvro17gxmoh].[none:전체가격(구간차원):qk]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{A601E952-64D4-435A-AD71-698AC1E050DA}' />
+    </worksheet>
+    <worksheet name='전체가격평균'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='matinkim전체가격(가방)' name='federated.0w7dqm009glopn1a9rvro17gxmoh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w7dqm009glopn1a9rvro17gxmoh'>
+            <column-instance column='[전체평균]' derivation='Sum' name='[sum:전체평균:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[전체평균]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.0w7dqm009glopn1a9rvro17gxmoh].[sum:전체평균:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontsize='28'>&lt;</run>
+                <run fontsize='28'>[federated.0w7dqm009glopn1a9rvro17gxmoh].[sum:전체평균:qk]</run>
+                <run fontsize='28'>&gt;원</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.2413811683654785' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{A6143B7A-351C-4E7B-A973-6F46A68F63A4}' />
+    </worksheet>
+    <worksheet name='제품 밝기'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='reviews_matin_kim_product_info2' name='federated.1dm2wal0kod4nb10j53r31ibn2ab' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1dm2wal0kod4nb10j53r31ibn2ab'>
+            <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+            <column-instance column='[category]' derivation='None' name='[none:category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[밝기]' derivation='Sum' name='[pcto:sum:밝기:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Table' type='PctTotal' />
+            </column-instance>
+            <column datatype='real' name='[밝기]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1dm2wal0kod4nb10j53r31ibn2ab].[none:category:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:category:nk]' />
+              <groupfilter function='except'>
+                <groupfilter function='level-members' level='[none:category:nk]' />
+                <groupfilter function='union'>
+                  <groupfilter function='member' level='[none:category:nk]' member='&quot;bright&quot;' />
+                  <groupfilter function='member' level='[none:category:nk]' member='&quot;dark&quot;' />
+                  <groupfilter function='member' level='[none:category:nk]' member='&quot;normal&quot;' />
+                  <groupfilter function='member' level='[none:category:nk]' member='%null%' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1dm2wal0kod4nb10j53r31ibn2ab].[none:category:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;bright&quot;</bucket>
+              <bucket>&quot;normal&quot;</bucket>
+              <bucket>&quot;dark&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[none:category:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1dm2wal0kod4nb10j53r31ibn2ab].[pcto:sum:밝기:qk]' field-type='quantitative' major-origin='0.0' major-spacing='0.10000000000000001' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.1dm2wal0kod4nb10j53r31ibn2ab].[pcto:sum:밝기:qk]' scope='cols' value='밝기 응답' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1dm2wal0kod4nb10j53r31ibn2ab].[none:category:nk]' value='185' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+                <format attr='mark-color' value='#76b7b2' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[none:category:nk]</rows>
+        <cols>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[pcto:sum:밝기:qk]</cols>
+        <percentages enabled='true' mode='table' />
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[pcto:sum:밝기:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[none:category:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[none:category:nk]</field>
+                  <field>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[pcto:sum:밝기:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;dark&quot;</value>
+                <value>0.089999999999999997</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[pcto:sum:밝기:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[none:category:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[none:category:nk]</field>
+                  <field>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[pcto:sum:밝기:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;bright&quot;</value>
+                <value>0.040000000000000001</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='2' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[pcto:sum:밝기:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[none:category:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[none:category:nk]</field>
+                  <field>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[pcto:sum:밝기:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;normal&quot;</value>
+                <value>0.87</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{D10DE878-2984-4A49-AC64-24C8A28D161A}' />
+    </worksheet>
+    <worksheet name='제품 사이즈'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='reviews_matin_kim_product_info2' name='federated.1dm2wal0kod4nb10j53r31ibn2ab' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1dm2wal0kod4nb10j53r31ibn2ab'>
+            <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+            <column-instance column='[category]' derivation='None' name='[none:category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[사이즈]' derivation='Sum' name='[pcto:sum:사이즈:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Table' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[사이즈]' derivation='Sum' name='[sum:사이즈:qk]' pivot='key' type='quantitative' />
+            <column datatype='real' name='[사이즈]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1dm2wal0kod4nb10j53r31ibn2ab].[sum:사이즈:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[sum:사이즈:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1dm2wal0kod4nb10j53r31ibn2ab].[pcto:sum:사이즈:qk:2]' field-type='quantitative' major-origin='0.0' major-spacing='0.10000000000000001' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.1dm2wal0kod4nb10j53r31ibn2ab].[pcto:sum:사이즈:qk:2]' scope='cols' value='사이즈 응답' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1dm2wal0kod4nb10j53r31ibn2ab].[none:category:nk]' value='197' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1dm2wal0kod4nb10j53r31ibn2ab].[pcto:sum:사이즈:qk:2]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#76b7b2' />
+                <format attr='size' value='1' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[none:category:nk]</rows>
+        <cols>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[pcto:sum:사이즈:qk:2]</cols>
+        <percentages enabled='true' mode='table' />
+      </table>
+      <simple-id uuid='{0183713F-2561-4484-85BC-13752691702F}' />
+    </worksheet>
+    <worksheet name='제품 색감'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='reviews_matin_kim_product_info2' name='federated.1dm2wal0kod4nb10j53r31ibn2ab' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1dm2wal0kod4nb10j53r31ibn2ab'>
+            <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+            <column-instance column='[category]' derivation='None' name='[none:category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[색감]' derivation='Sum' name='[pcto:sum:색감:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Table' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[색감]' derivation='Sum' name='[sum:색감:qk]' pivot='key' type='quantitative' />
+            <column datatype='real' name='[색감]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.1dm2wal0kod4nb10j53r31ibn2ab].[none:category:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;blurred&quot;</bucket>
+              <bucket>&quot;normal&quot;</bucket>
+              <bucket>&quot;colorful&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='quantitative' column='[federated.1dm2wal0kod4nb10j53r31ibn2ab].[sum:색감:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[sum:색감:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1dm2wal0kod4nb10j53r31ibn2ab].[pcto:sum:색감:qk]' field-type='quantitative' major-origin='0.0' major-spacing='0.10000000000000001' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.1dm2wal0kod4nb10j53r31ibn2ab].[pcto:sum:색감:qk]' scope='cols' value='색감 응답' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1dm2wal0kod4nb10j53r31ibn2ab].[none:category:nk]' value='177' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.0434806346893311' />
+                <format attr='mark-color' value='#76b7b2' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[none:category:nk]</rows>
+        <cols>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[pcto:sum:색감:qk]</cols>
+        <percentages enabled='true' mode='table' />
+      </table>
+      <simple-id uuid='{35A0B1BD-5D1B-4AB7-B907-C7E99B0F5DF8}' />
+    </worksheet>
+    <worksheet name='하위가격 평균'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='matinkim전체가격(가방)' name='federated.0w7dqm009glopn1a9rvro17gxmoh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0w7dqm009glopn1a9rvro17gxmoh'>
+            <column-instance column='[하위10평균]' derivation='Sum' name='[sum:하위10평균:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[하위10평균]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0w7dqm009glopn1a9rvro17gxmoh].[sum:하위10평균:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontsize='28'>&lt;</run>
+                <run fontsize='28'>[federated.0w7dqm009glopn1a9rvro17gxmoh].[sum:하위10평균:qk]</run>
+                <run fontsize='28'>&gt;원</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{2ED5831E-3C7A-4401-B66F-2601EAF14A88}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='106'>
+    <window class='worksheet' name='전체가격분포'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0w7dqm009glopn1a9rvro17gxmoh].[none:전체가격(구간차원):qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5632178E-51D7-4E20-A5BE-B037AF46F658}' />
+    </window>
+    <window class='worksheet' name='전체가격평균'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0w7dqm009glopn1a9rvro17gxmoh].[sum:전체평균:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>126250</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+      </viewpoint>
+      <simple-id uuid='{984C9655-F5E2-40C3-9214-7C88545D07E6}' />
+    </window>
+    <window class='worksheet' name='상위가격 평균'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6FB9EDCF-2D5C-4B4B-A21D-951C4D25B9A3}' />
+    </window>
+    <window class='worksheet' name='하위가격 평균'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{988E6B1F-8571-4A8C-A14C-31CE9E9A594C}' />
+    </window>
+    <window class='worksheet' name='연령별 구매비율'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{363D0FC3-0000-4EF4-B1F5-6227B55EEDCF}' />
+    </window>
+    <window class='worksheet' name='제품 사이즈'>
+      <cards>
+        <edge name='left'>
+          <strip size='111'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[none:category:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C8172BAE-9F84-4E72-A246-662706105570}' />
+    </window>
+    <window class='worksheet' name='제품 밝기'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[none:category:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{663EC2C1-CCA0-46A8-BC4A-F95C410BBB77}' />
+    </window>
+    <window class='worksheet' name='제품 색감'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[none:category:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6A7278CE-B44E-4C1D-A949-8671D23191B7}' />
+    </window>
+    <window class='worksheet' maximized='true' name='시트 9'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1dm2wal0kod4nb10j53r31ibn2ab].[none:category:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D25E102F-361B-4F79-8E00-42AFD199BC86}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='82' name='상위가격 평균' width='192'>
+      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
+      iqChAqAImv8B0gbjQpmqdkAAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='시트 9' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='연령별 구매비율' width='192'>
+      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
+      Wf2zqwAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='전체가격분포' width='192'>
+      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
+      ClcSAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='82' name='전체가격평균' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='제품 밝기' width='192'>
+      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
+      TNCeuqaBAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='제품 사이즈' width='192'>
+      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
+      gg==
+    </thumbnail>
+    <thumbnail height='192' name='제품 색감' width='192'>
+      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
+      ENP+A4x2YxGNq/VnAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='82' name='하위가격 평균' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
